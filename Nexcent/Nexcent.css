@@ -24,3 +24,39 @@ body {
 .btn-primary:hover {
   background-color: #4338ca;
 }
+
+.community-card {
+  background: #f5f7fa;
+  padding: 40px 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.community-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.hero-img {
+  max-width: 100%;
+}
+
+.hero-btn {
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .community-title {
+    font-size: 28px;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-section {
+    text-align: center;
+  }
