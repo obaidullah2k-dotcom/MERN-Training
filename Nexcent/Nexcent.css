@@ -48,6 +48,87 @@ body {
   border-radius: 5px;
 }
 
+/* Logos */
+.clients-logos img {
+  max-height: 40px;
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+
+.clients-logos img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.stats-section {
+  background-color: #f5f7fa;
+  padding: 80px 0;
+}
+
+/* Title */
+.stats-title {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* Text */
+.stats-text {
+  margin-top: 10px;
+}
+
+/* Stat Box */
+.stat-box {
+  gap: 15px;
+}
+
+.stat-icon {
+  width: 40px;
+}
+
+/* Numbers */
+.stat-box h4 {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Labels */
+.stat-box p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.calender-section {
+  padding: 80px 0;
+}
+
+/* Title */
+.design-title {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* Text */
+.design-text {
+  font-size: 15px;
+  margin: 20px 0 30px;
+  line-height: 1.6;
+}
+
+/* Button */
+.design-btn {
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* Image */
+.design-img {
+  max-width: 100%;
+}
+
+
 @media (max-width: 768px) {
   .community-title {
     font-size: 28px;
@@ -60,3 +141,17 @@ body {
   .hero-section {
     text-align: center;
   }
+
+    .feature-title {
+    font-size: 26px;
+  }
+
+  .stats-title {
+    font-size: 26px;
+  }
+
+  .design-title {
+    font-size: 26px;
+  }
+
+}
